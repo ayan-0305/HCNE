@@ -27,6 +27,6 @@ returns a ranked list of node pairs with decreasing similarity where:
 f1 is an integer denoting whether corresponding node pair is connected (1) or not (0)
 f2 is a floating point number denoting the corresponding value of precision@K
 --------------------
-Sample graph file: zachary.txt
-Sample embedding file: zachary-emb.txt
-Sample precision@K output file: prec_zachary.txt
+Sample graph file: karate.txt
+Sample embedding file: karate-emb.txt
+Sample precision@K output file: prec_karate.txt
