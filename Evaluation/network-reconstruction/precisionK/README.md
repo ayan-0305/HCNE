@@ -1,6 +1,6 @@
 # GraphEvaluation
 
-precK : cpp file to evaluate the all pair resconstrction of graph from generated embeddings
+precK : cpp file to evaluate the all pair reconstruction of graph from generated embeddings
 Run : g++ -std=c++11 precK.cpp -o b.out
 	  ./b.out <embeddings file> <graph file> <threshold outputfile <precision outputfile> <jaccard outputfile> <sim techniue ("cos"/"euc")>
 
