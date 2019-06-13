@@ -30,4 +30,3 @@ f2 is a floating point number denoting the corresponding value of precision@K
 Sample graph file: zachary.txt
 Sample embedding file: zachary-emb.txt
 Sample precision@K output file: prec_zachary.txt
-
