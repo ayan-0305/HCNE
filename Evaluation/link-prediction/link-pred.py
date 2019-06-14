@@ -129,24 +129,6 @@ for i in range(0,len(poe)):
     print len(L)
 
 
-'''leng=int(len(L)*0.7)
-
-
-X=np.array(L[:leng])
-Y=np.array(L1[:leng])
-
-Lt=L[leng:]
-L1t=L1[leng:]
-
-Xt=np.array(Lt)
-Yt=np.array(L1t)
-
-clf=LogisticRegression()
-clf.fit(X,Y)
-auc_train = metrics.scorer.roc_auc_scorer(clf, X, Y)
-auc_test = metrics.scorer.roc_auc_scorer(clf, Xt, Yt)'''
-
-
 X=np.array(L)
 Y=np.array(L1)
 logreg=LogisticRegressionCV()
