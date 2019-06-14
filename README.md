@@ -22,4 +22,4 @@ For our experiments, we are using the following datasets:
 
 Blogcatalog: http://socialcomputing.asu.edu/datasets/BlogCatalog3
 youtube: http://socialnetworks.mpi-sws.org/data-imc2007.html
-flickr: http://socialcomputing.asu.edu/pages/datasets
+flickr: http://socialnetworks.mpi-sws.org/data-imc2007.html
