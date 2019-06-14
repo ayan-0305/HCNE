@@ -62,7 +62,7 @@ while (itera<=100):
 	for line in f1:
 		t=line.split()
 		c+=1
-		if c==1:
+		if len(t)==2:
 			continue
 		d[t[0]]=[]
 		for i in range(1,len(t)):
