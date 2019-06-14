@@ -16,5 +16,10 @@ where karate.txt -> edgelist file for the karate network
       }
 
 
-
 The 'Evaluation' folder contains the code for evaluating generated embedding vectors on different downstream prediction tasks as well as generating a sampled graph representative of the original graph. 
+
+For our experiments, we are using the following datasets:
+
+Blogcatalog: http://socialcomputing.asu.edu/datasets/BlogCatalog3
+youtube: http://socialnetworks.mpi-sws.org/data-imc2007.html
+flickr: http://socialcomputing.asu.edu/pages/datasets
