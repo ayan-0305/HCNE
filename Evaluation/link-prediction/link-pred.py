@@ -69,7 +69,7 @@ f=open(embedding,'r')
 c=0
 for line in f:
     c+=1
-    if c==1:
+    if len(t)==2:
         continue
     t=line.split()
     d[t[0]]=[]
