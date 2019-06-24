@@ -69,9 +69,9 @@ f=open(embedding,'r')
 c=0
 for line in f:
     c+=1
+    t=line.split()
     if len(t)==2:
         continue
-    t=line.split()
     d[t[0]]=[]
     for i in range(1,len(t)):
         d[t[0]].append(float(t[i]))
