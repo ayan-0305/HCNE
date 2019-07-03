@@ -99,8 +99,7 @@ poe=list(set(nege).difference(set(nege1)))
 #nege1=list(set(nege).difference(set(pose)))
 
 
-for i in range(0,100):
-    np.random.shuffle(noe)
+np.random.shuffle(noe)
 
 t=len(poe)
 
