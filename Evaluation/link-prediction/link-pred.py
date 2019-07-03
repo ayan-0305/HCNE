@@ -78,9 +78,8 @@ for line in f:
 
 key=d.keys()
 
-for i in range(0,100):
-    np.random.shuffle(pose)
-    np.random.shuffle(key)
+np.random.shuffle(pose)
+np.random.shuffle(key)
 
 
 for i in range(0,len(key)):
