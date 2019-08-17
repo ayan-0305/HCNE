@@ -1,5 +1,5 @@
-# HCNE
-A Hierarchical Clustering Approach for Network Embedding
+# LouvainNE
+LouvainNE: Hierarchical Louvain Method for High Quality and Scalable Graph Embedding
 
 The 'model' folder contains the codebase for generating the HCNE embedding vectors for nodes in an input graph.
 To generate the embedding vectors, run the following command inside the 'model' folder to generate embedding vectors for nodes in the karate club network:
